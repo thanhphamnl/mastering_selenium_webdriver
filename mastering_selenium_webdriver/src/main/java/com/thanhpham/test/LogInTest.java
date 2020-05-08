@@ -1,17 +1,14 @@
 package com.thanhpham.test;
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LogInTest {
+import com.thanhpham.base.BaseTest;
+
+public class LogInTest extends BaseTest {
 	
 	@Test
-	public void logInTest() {
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+	public void logInTest() {	
 		driver.get("http://the-internet.herokuapp.com/login");
-		System.out.println("Page opened");
-		driver.quit();
+		System.out.println("Page opened");		
 	}
 }
