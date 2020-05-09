@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [LogInTestSuiteVariousBrowsers]" guice-stage="DEVELOPMENT">
-  <parameter name="enviroment" value="grid"/>
+  <parameter name="environment" value="sauce"/>
+  <test thread-count="5" name="LogInTest-Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows 7"/>
+    <classes>
+      <class name="com.thanhpham.test.LogInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- com.thanhpham.test.LogInTest -->
+    </classes>
+  </test> <!-- LogInTest-Chrome(failed) -->
+  <test thread-count="5" name="LogInTest-Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="macOS 10.13"/>
+    <classes>
+      <class name="com.thanhpham.test.LogInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- com.thanhpham.test.LogInTest -->
+    </classes>
+  </test> <!-- LogInTest-Firefox(failed) -->
   <test thread-count="5" name="LogInTest-IE(failed)">
-    <parameter name="browser" value="ie"/>
+    <parameter name="browser" value="Internet Explorer"/>
     <classes>
       <class name="com.thanhpham.test.LogInTest">
         <methods>
