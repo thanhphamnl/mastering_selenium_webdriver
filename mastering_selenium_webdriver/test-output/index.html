@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-LogInTestSuiteVariousBrowsers" class="navigator-link ">
-                    <span>C:\Users\thanh\git\mastering_selenium_webdriver\mastering_selenium_webdriver\src\test\resources\TestSuites\LogInTestSuiteVariousBrowsers.xml</span>
+                    <span>C:\Users\thanh\git\mastering_selenium_webdriver\mastering_selenium_webdriver\src\test\resources\TestSuites\LogInTestSuiteVariousBrowsersSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -158,8 +158,8 @@
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;THANHKHANH&apos;, ip: &apos;192.168.1.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41098/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa6a5471-5520-42e0-a7c2-5b12acf0cdb1
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:14772/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ec93f5d-b5bf-4d34-a1a1-310e05bdcfdc
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -167,7 +167,7 @@ Session ID: fa6a5471-5520-42e0-a7c2-5b12acf0cdb1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.thanhpham.test.LogInTest.logInTest(LogInTest.java:11)
+	at com.thanhpham.test.LogInTest.logInTest(LogInTest.java:14)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -207,13 +207,14 @@ Session ID: fa6a5471-5520-42e0-a7c2-5b12acf0cdb1
         </div> <!-- panel LogInTestSuiteVariousBrowsers -->
         <div panel-name="test-xml-LogInTestSuiteVariousBrowsers" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\thanh\git\mastering_selenium_webdriver\mastering_selenium_webdriver\src\test\resources\TestSuites\LogInTestSuiteVariousBrowsers.xml</span>
+            <span class="header-content">C:\Users\thanh\git\mastering_selenium_webdriver\mastering_selenium_webdriver\src\test\resources\TestSuites\LogInTestSuiteVariousBrowsersSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;LogInTestSuiteVariousBrowsers&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;enviroment&quot; value=&quot;grid&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;LogInTest-CH&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -288,19 +289,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logInTest')
 data.setCell(0, 2, 'com.thanhpham.test.LogInTest')
-data.setCell(0, 3, 300124);
+data.setCell(0, 3, 300071);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logInTest')
 data.setCell(1, 2, 'com.thanhpham.test.LogInTest')
-data.setCell(1, 3, 1885);
+data.setCell(1, 3, 18018);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logInTest')
 data.setCell(2, 2, 'com.thanhpham.test.LogInTest')
-data.setCell(2, 3, 1718);
+data.setCell(2, 3, 17977);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logInTest')
 data.setCell(3, 2, 'com.thanhpham.test.LogInTest')
-data.setCell(3, 3, 1555);
+data.setCell(3, 3, 17241);
 window.suiteTableData['LogInTestSuiteVariousBrowsers']= { tableData: data, tableDiv: 'times-div-LogInTestSuiteVariousBrowsers'}
 return data;
 }
@@ -338,51 +339,51 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInTest</span>
-                <span class="method-start">8628 ms</span>
+                <span class="method-start">8792 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10186 ms</span>
+                <span class="method-start">26821 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">10874 ms</span>
+                <span class="method-start">27513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInTest</span>
-                <span class="method-start">21547 ms</span>
+                <span class="method-start">36627 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23434 ms</span>
+                <span class="method-start">53872 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(ie)</span>
-                <span class="method-start">29979 ms</span>
+                <span class="method-start">58432 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">logInTest</span>
-                <span class="method-start">34450 ms</span>
+                <span class="method-start">62689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">334579 ms</span>
+                <span class="method-start">362765 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(internet explorer)</span>
-                <span class="method-start">340336 ms</span>
+                <span class="method-start">370839 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInTest</span>
-                <span class="method-start">348742 ms</span>
+                <span class="method-start">379358 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">350461 ms</span>
+                <span class="method-start">397338 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

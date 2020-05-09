@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-08T10:21:57 PDT" name="LogInTestSuiteVariousBrowsers" finished-at="2020-05-08T10:27:49 PDT" duration-ms="351106">
+  <suite started-at="2020-05-09T14:43:22 PDT" name="LogInTestSuiteVariousBrowsers" finished-at="2020-05-09T14:50:00 PDT" duration-ms="397986">
     <groups>
     </groups>
-    <test started-at="2020-05-08T10:21:57 PDT" name="LogInTest-CH" finished-at="2020-05-08T10:22:08 PDT" duration-ms="10831">
+    <test started-at="2020-05-09T14:43:22 PDT" name="LogInTest-CH" finished-at="2020-05-09T14:43:49 PDT" duration-ms="27477">
       <class name="com.thanhpham.test.LogInTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-08T10:21:57 PDT" name="setUp" finished-at="2020-05-08T10:22:06 PDT" duration-ms="8628" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-09T14:43:22 PDT" name="setUp" finished-at="2020-05-09T14:43:31 PDT" duration-ms="8790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-08T10:22:06 PDT" name="logInTest" finished-at="2020-05-08T10:22:08 PDT" duration-ms="1555" status="PASS">
+        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-09T14:43:31 PDT" name="logInTest" finished-at="2020-05-09T14:43:49 PDT" duration-ms="18018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-08T10:22:08 PDT" name="tearDown" finished-at="2020-05-08T10:22:08 PDT" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@173ed316]" started-at="2020-05-09T14:43:49 PDT" name="tearDown" finished-at="2020-05-09T14:43:49 PDT" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.thanhpham.test.LogInTest -->
     </test> <!-- LogInTest-CH -->
-    <test started-at="2020-05-08T10:22:08 PDT" name="LogInTest-FF" finished-at="2020-05-08T10:22:27 PDT" duration-ms="19083">
+    <test started-at="2020-05-09T14:43:49 PDT" name="LogInTest-FF" finished-at="2020-05-09T14:44:20 PDT" duration-ms="30896">
       <class name="com.thanhpham.test.LogInTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-08T10:22:08 PDT" name="setUp" finished-at="2020-05-08T10:22:19 PDT" duration-ms="10673" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-09T14:43:49 PDT" name="setUp" finished-at="2020-05-09T14:43:58 PDT" duration-ms="9114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-08T10:22:19 PDT" name="logInTest" finished-at="2020-05-08T10:22:21 PDT" duration-ms="1885" status="PASS">
+        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-09T14:43:58 PDT" name="logInTest" finished-at="2020-05-09T14:44:16 PDT" duration-ms="17241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-08T10:22:21 PDT" name="tearDown" finished-at="2020-05-08T10:22:27 PDT" duration-ms="6522" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@15043a2f]" started-at="2020-05-09T14:44:16 PDT" name="tearDown" finished-at="2020-05-09T14:44:20 PDT" duration-ms="4535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.thanhpham.test.LogInTest -->
     </test> <!-- LogInTest-FF -->
-    <test started-at="2020-05-08T10:22:27 PDT" name="LogInTest-IE" finished-at="2020-05-08T10:27:38 PDT" duration-ms="310323">
+    <test started-at="2020-05-09T14:44:20 PDT" name="LogInTest-IE" finished-at="2020-05-09T14:49:33 PDT" duration-ms="312362">
       <class name="com.thanhpham.test.LogInTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-08T10:22:27 PDT" name="setUp" finished-at="2020-05-08T10:22:32 PDT" duration-ms="4470" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-09T14:44:20 PDT" name="setUp" finished-at="2020-05-09T14:44:25 PDT" duration-ms="4257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,23 +64,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-08T10:22:32 PDT" name="logInTest" finished-at="2020-05-08T10:27:32 PDT" duration-ms="300124" status="FAIL">
+        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-09T14:44:25 PDT" name="logInTest" finished-at="2020-05-09T14:49:25 PDT" duration-ms="300071" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Timed out waiting for page to load.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'THANHKHANH', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41098/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa6a5471-5520-42e0-a7c2-5b12acf0cdb1]]>
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:14772/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ec93f5d-b5bf-4d34-a1a1-310e05bdcfdc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Timed out waiting for page to load.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'THANHKHANH', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41098/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fa6a5471-5520-42e0-a7c2-5b12acf0cdb1
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:14772/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ec93f5d-b5bf-4d34-a1a1-310e05bdcfdc
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -93,7 +93,7 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.thanhpham.test.LogInTest.logInTest(LogInTest.java:11)
+at com.thanhpham.test.LogInTest.logInTest(LogInTest.java:14)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,16 +128,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-08T10:27:32 PDT" name="tearDown" finished-at="2020-05-08T10:27:38 PDT" duration-ms="5702" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@8519cb4]" started-at="2020-05-09T14:49:25 PDT" name="tearDown" finished-at="2020-05-09T14:49:33 PDT" duration-ms="8010" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:41098
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:14772
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'THANHKHANH', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:41098
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:14772
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'THANHKHANH', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: driver.version: RemoteWebDriver
@@ -145,7 +145,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-at com.thanhpham.base.BaseTest.tearDown(BaseTest.java:37)
+at com.thanhpham.base.BaseTest.tearDown(BaseTest.java:41)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -179,7 +179,7 @@ at org.testng.TestNG.run(TestNG.java:1034)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:41098
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:14772
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -220,9 +220,9 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
         </test-method> <!-- tearDown -->
       </class> <!-- com.thanhpham.test.LogInTest -->
     </test> <!-- LogInTest-IE -->
-    <test started-at="2020-05-08T10:27:38 PDT" name="LogInTest-DEF" finished-at="2020-05-08T10:27:49 PDT" duration-ms="10740">
+    <test started-at="2020-05-09T14:49:33 PDT" name="LogInTest-DEF" finished-at="2020-05-09T14:50:00 PDT" duration-ms="27123">
       <class name="com.thanhpham.test.LogInTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-08T10:27:38 PDT" name="setUp" finished-at="2020-05-08T10:27:46 PDT" duration-ms="8406" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-09T14:49:33 PDT" name="setUp" finished-at="2020-05-09T14:49:41 PDT" duration-ms="8519" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,11 +233,11 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-08T10:27:46 PDT" name="logInTest" finished-at="2020-05-08T10:27:48 PDT" duration-ms="1718" status="PASS">
+        <test-method signature="logInTest()[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-09T14:49:41 PDT" name="logInTest" finished-at="2020-05-09T14:49:59 PDT" duration-ms="17977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-08T10:27:48 PDT" name="tearDown" finished-at="2020-05-08T10:27:49 PDT" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thanhpham.test.LogInTest@5afa3c9]" started-at="2020-05-09T14:49:59 PDT" name="tearDown" finished-at="2020-05-09T14:50:00 PDT" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
